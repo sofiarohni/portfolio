@@ -39,13 +39,13 @@ lightboxImg.addEventListener('click', e => e.stopPropagation());
    ══════════════════════════════════════════════ */
 
 const ALL_IMAGES = [
-  'work-1.jpg',
-  'work-2.jpg',
-  'work-3.jpg',
+  'images/work-1.jpg',
+  'images/work-2.jpg',
+  'images/work-3.jpg',
 ];
 
 // ── Tuning ────────────────────────────────────
-const RING_COUNT  = 10;    // Bilder gleichzeitig
+const RING_COUNT  = 3;    // Bilder gleichzeitig
 const RING_RADIUS = 820;   // Kreisradius — groß, geht weit über Rand
 const IMG_W       = 390;   // Bildbreite
 const IMG_H       = 510;   // Bildhöhe
