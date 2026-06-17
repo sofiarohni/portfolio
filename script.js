@@ -39,9 +39,9 @@ lightboxImg.addEventListener('click', e => e.stopPropagation());
    ══════════════════════════════════════════════ */
 
 const ALL_IMAGES = [
-  'portfolio/images/work-1.jpg',
-  'portfolio/images/work-2.jpg',
-  'portfolio/images/work-3.jpg',
+  'images/work-1.jpg',
+  'images/work-2.jpg',
+  'images/work-3.jpg',
 ];
 
 // ── Tuning ────────────────────────────────────
